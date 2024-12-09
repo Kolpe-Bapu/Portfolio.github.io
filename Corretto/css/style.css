@@ -1,0 +1,180 @@
+:root {
+    --bs-color-black: #000000;
+    --bs-color-coffee: #BE9C79;
+}
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-black {
+    color: var(--bs-color-black);
+}
+
+.bg-black {
+    background: var(--bs-color-black);
+}
+
+.text-coffee {
+    color: var(--bs-color-coffee);
+}
+
+.bg-coffee {
+    background: var(--bs-color-coffee);
+}
+
+#common nav ul li a {
+    transition: .5s;
+    color: #ffffff;
+}
+
+#common nav ul li a:hover {
+    color: #BE9C79;
+}
+
+#common .carousel-inner a {
+    transition: .5s;
+    border: 1px solid #ffffff;
+}
+
+#common .carousel-inner a:hover {
+    background: #BE9C79;
+    border: 1px solid #BE9C79;
+}
+
+#offer div a {
+    color: #ffffff;
+    transition: .5s;
+}
+
+#offer div a:hover {
+    color: #BE9C79;
+}
+
+#coffee div a {
+    color: #000000;
+    transition: .5s;
+}
+
+#coffee div a:hover {
+    color: #BE9C79;
+}
+
+#shop div a {
+    color: #000000;
+    transition: .5s;
+}
+
+#shop div a:hover {
+    color: #BE9C79;
+}
+
+#shop div .btn {
+    border: 1px solid #000000;
+}
+
+#shop div .btn:hover {
+    color: #ffffff;
+    background: #BE9C79;
+    border: 1px solid #BE9C79;
+}
+
+#gallery .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#gallery .card:hover .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#gallery .card .card-body {
+    position: absolute;
+    display: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    width: 100%;
+    height: 100%;
+}
+
+#gallery .card .card-body a {
+    color: #ffffff;
+    transition: .5s;
+}
+
+#gallery .card .card-body a:hover {
+    color: #BE9C79;
+}
+
+#contact a {
+    color: #ffffff;
+    background: #BE9C79;
+    transition: .5s;
+}
+
+#contact a:hover {
+    background: #000000;
+}
+
+#footer a {
+    color: #ffffff;
+    transition: .5s;
+}
+
+#footer a:hover {
+    color: #BE9C79;
+}
+
+#footer button {
+    background: #ffffff;
+    transition: .5s;
+}
+
+#footer button:hover {
+    background: #BE9C79;
+}
+
+#foot a {
+    color: #ffffff;
+    transition: .3s;
+}
+
+#foot a:hover {
+    color: #BE9C79;
+}
+
+#coffee {
+    background: url(../images/background/coffee-bg.jpg);
+}
+
+#counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../images/background/counter-bg.jpg) center;
+    background-size: cover;
+}
+
+#shop {
+    background: url(../images/background/shop-bg.jpg);
+}
+
+#contact {
+    background: url(../images/background/shop-bg.jpg);
+}
+
+#footer {
+    background: url(../images/background/footer-bg.jpg);
+}
