@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 15px;
+}
+
+:root {
+    --bs-color-primary: #7E5A4E;
+    --bs-color-lightprimary: #C68D7A;
+    --bs-color-secondary: #000000;
+    --bs-color-text: #A1A1A1;
+    --bs-color-gray: #898989;
+    --bs-color-light: #F4ECDA;
+    --bs-color-grey: #C3B2AD;
+}
+
+.text-primary1 {
+    color: var(--bs-color-primary);
+}
+
+.bg-primary1 {
+    background: var(--bs-color-primary);
+}
+
+.text-primary2 {
+    background: var(--bs-color-lightprimary);
+}
+
+.text-secondary1 {
+    color: var(--bs-color-secondary);
+}
+
+.bg-secondary1 {
+    background: var(--bs-color-secondary);
+}
+
+.text-text1 {
+    color: var(--bs-color-text);
+}
+
+.bg-text1 {
+    background: var(--bs-color-text);
+}
+
+.text-gray1 {
+    color: var(--bs-color-gray);
+}
+
+.bg-gray1 {
+    background: var(--bs-color-gray);
+}
+
+.text-light1 {
+    color: var(--bs-color-light);
+}
+
+.bg-light1 {
+    background: var(--bs-color-light);
+}
+
+.text-grey1 {
+    color: var(--bs-color-grey);
+}
+
+.oswald-normal {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald-semibold {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.oswald-bold {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background/hero-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#header nav ul li a {
+    color: #ffffff;
+    transition: .5s;
+}
+
+#header nav ul li a:hover {
+    color: #C68D7A;
+}
+
+#services .card img {
+    border: 3px dashed #7E5A4E;
+    transition: .5s;
+}
+
+#services .card img:hover {
+    transform: scale(1.1);
+}
+
+#care .card img {
+    border: 2px dashed #7E5A4E;
+}
+
+#care .card a {
+    color: #7E5A4E;
+}
+
+#care .card .card_btn,
+#time .card_btn {
+    color: #ffffff;
+    transition: .5s;
+}
+
+#care .card .card_btn:hover {
+    color: #7E5A4E;
+    border: 1px solid #7E5A4E;
+}
+
+#menu #menu_inner .italic_menu {
+    color: #898989;
+}
+
+#menu #menu_inner a {
+    color: #7E5A4E;
+}
+
+#time .card_btn:hover {
+    color: #7E5A4E;
+    background: #ffffff;
+}
+
+#time img {
+    transition: .5s;
+}
+
+#time img:hover {
+    transform: scale(1.1);
+}
+
+#contact button {
+    color: #ffffff;
+    background: #7E5A4E;
+    transition: .5s;
+}
+
+#contact button:hover {
+    color: #7E5A4E;
+    background: #ffffff;
+}
+
+#contact a {
+    color: #898989;
+}
+
+#footer a {
+    color: #898989;
+    transition: .5s;
+}
+
+#footer a:hover {
+    color: #7E5A4E;
+}
+
+#about #about-inner-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/about-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#menu {
+    background: url(../images/background/menu-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#menu #menu_inner {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+#time {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/time-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#blog .blog_inner h2 {
+    font-size: 110px;
+    color: #f0f4f4;
+    line-height: 100px;
+}
+
+#blog .blog_inner {
+    position: relative;
+    top: 0;
+}
+
+#blog .blog_inner .blog_inner_2 {
+    position: absolute;
+    top: 0;
+}
+
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background/table-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#video {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/video-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background/menu-bg.jpg) no-repeat center;
+    background-size: cover;
+}

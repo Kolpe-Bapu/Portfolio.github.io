@@ -1,0 +1,720 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 0.1px solid #656363;
+}
+
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: transparent;
+}
+
+header img {
+    width: 160px;
+}
+
+header nav ul {
+    display: none;
+}
+
+header .head .fa-bars {
+    color: #ff5e14;
+}
+
+/* end of header */
+
+.back_fixed {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background/home-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffffff;
+    /* margin: -120px 0px 0px 0px; */
+}
+
+.hero h1 {
+    font-size: 36px;
+    line-height: 50px;
+    /* margin: 20px 0px 0px 0px; */
+}
+
+.hero p {
+    line-height: 30px;
+    color: #cbd2de;
+    margin: 30px 0px;
+}
+
+.hero .hero_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 80px 0px;
+}
+
+.hero .hero_inner .hero_inner_btn1, .hero_inner_btn2, .consultation button, .projects .projects_inner1 button {
+    padding: 15px 20px;
+    margin: 10px 0px;
+    width: 220px;
+    font-weight: bold;
+    background: #ff5e14;
+    color: #ffffff;
+    border: 0px;
+    box-shadow: 0px 0px 11px #ff5e14;
+}
+
+.hero .hero_inner .hero_inner_btn1:hover, .hero_inner_btn2:hover, .consultation button:hover, .projects .projects_inner1 button:hover {
+    background-color: #000000;
+}
+
+.hero .hero_inner .hero_inner_btn1 i, .consultation button i, .projects .projects_inner1 button i {
+    margin: 0px 0px 0px 20px;
+    font-size: 10px;
+}
+
+.hero .hero_inner .hero_inner_btn2 {
+    background: none;
+    box-shadow: 0px 0px 0px transparent;
+}
+
+/* end of hero */
+
+.concrete, .client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    margin: 80px 0px;
+}
+
+.concrete .concrete_inner1 h2, .consultation h2, .specialization .specialization_inner2 h2, .client .client_inner1 h2, .projects h2, .team h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.concrete .concrete_inner1 .concrete_inner1_span, .consultation .consultation_span, .specialization .specialization_inner2 .specialization_inner2_span, .client .client_inner1 .client_inner1_span, .projects .projects_span, .team .team_span {
+    background: #ff5e14;
+    padding: 0px 30px;
+    font-size: 4px;
+    line-height: 40px;
+}
+
+.concrete .concrete_inner1 h3 {
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+
+.concrete .concrete_inner1 p, .consultation p, .specialization .specialization_inner2 p, .client .client_inner1 p, .projects .projects_inner1 p, .team p {
+    line-height: 30px;
+    color: #5f5a5af0;
+}
+
+.concrete .concrete_inner1 .concrete_inner1_fa {
+    font-size: 15px;
+    color: #636363;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 80px 0px 20px 0px;
+}
+
+.concrete .concrete_inner1 h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #272626;
+}
+
+.concrete .concrete_inner2, .specialization .specialization_inner1 {
+    position: relative;
+}
+
+.concrete .concrete_inner2 img, .specialization .specialization_inner1 img {
+    width: 100%;
+    height: 63vh;
+}
+
+.concrete .concrete_inner2 .concrete_inner2_over, .specialization .specialization_inner1_over {
+    width: 90%;
+    margin: 50px 0px 0px 0px;
+}
+
+.concrete .concrete_inner2 .concrete_inner2_under, .specialization .specialization_inner1_under {
+    width: 90%;
+    height: 63vh;
+    border: 4px solid #ff5e14;
+    position: absolute;
+    z-index: -1;
+    margin: -272px 0px 0px 23px;
+}
+
+/* end of concrete */
+
+.consultation {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background/CTA-bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 80px 0px 0px 0px;
+}
+
+.consultation h2 {
+    color: #ffffff;
+}
+
+.consultation button {
+    margin: 50px 0px 100px 0px;
+    width: 220px;
+}
+
+.consultation button i {
+    margin: 0px 0px 0px 20px;
+    font-size: 10px;
+}
+
+.consultation .consultation_span {
+    line-height: 50px;
+}
+
+.consultation p {
+    margin: 30px 0px;
+    color: #f0eeee;
+}
+
+/* end of consultation */
+
+.specialization {
+    padding: 0px 20px 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.specialization .specialization_inner1 {
+    margin: 80px 0px;
+}
+
+.specialization .specialization_inner2 .special_inner1, .special_inner1 .special_inner1_fa {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa i {
+    color: #ff5e14;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa div h3 {
+    font-size: 18px;
+}
+
+/* end of specialization */
+
+.client {
+    margin: 50px 0px 100px 0px;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client .client_inner1 .client_inner1_p{
+    margin: 0px 0px 100px 0px;
+}
+
+.client .client_inner1 .client_inner1_img, .client_inner2 .client_inner2_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+    box-shadow: 20px 20px 50px #d9d8d8;
+}
+
+.client .client_inner1 .client_inner1_img img, .client_inner2 .client_inner2_img img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.client .client_inner1 .client_inner1_img img:hover, .client_inner2 .client_inner2_img img:hover{
+    filter: grayscale(0%);
+}
+
+.client .client_inner1 .client_inner1_div, .client_inner2 .client_inner2_div {
+    padding: 15px 20px 15px 20px;
+}
+
+.client .client_inner1 .client_inner1_img i, .client_inner2 .client_inner2_img i{
+    color: #ff5e14;
+    font-size: 25px;
+}
+
+.client .client_inner1 .client_inner1_img .p1, .client_inner2 .client_inner2_img .p1 {
+    font-weight: bold;
+    color: #474646;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 10px 0px 20px 0px;
+}
+
+.client .client_inner1 .client_inner1_img .p2, .client_inner2 .client_inner2_img .p2 {
+    color: #636363;
+    font-size: 15px;
+}
+
+.client .client_inner1 .client_inner1_img .p3, .client_inner2 .client_inner2_img .p3 {
+    color: #636363;
+    font-size: 13px;
+    margin: 0px 0px 20px 0px;
+}
+
+/* end of client */
+
+.projects {
+    margin: 0px 0px 100px 0px;
+}
+
+.projects h2, .projects_span, .projects_inner1 {
+    margin: 0px 20px;
+}
+
+.projects .projects_inner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects .projects_inner1 button {
+    margin: 60px 0px;
+}
+
+.projects .projects_inner2 .projects_inner2_img1, .projects_inner2_img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects .projects_inner2 .projects_inner2_img1 div, .projects_inner2_img2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.projects .projects_inner2 .projects_inner2_img1 span, .projects_inner2_img2 span {
+    position: absolute;
+    font-size: 9em;
+    z-index: 1;
+    color: #ffffff3d;
+    font-weight: bold;
+}
+
+.projects .projects_inner2 .projects_inner2_img1 div h3, .projects_inner2_img2 div h3 {
+    font-size: 25px;
+}
+
+.projects .projects_inner2 .projects_inner2_span1, .projects_inner2_span2, .projects_inner2_span3, .projects_inner2_span4, .projects_inner2_span5, .projects_inner2_span6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/background/project-1-1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.projects .projects_inner2 .projects_inner2_span1:hover, .projects_inner2_span2, .projects_inner2_span3, .projects_inner2_span4, .projects_inner2_span5, .projects_inner2_span6 {
+    background: linear-gradient(rgba(247, 84, 2, 0.5),rgba(245, 84, 3, 0.5)), url(../images/background/project-1-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/background/praject-2-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span2:hover {
+    background: linear-gradient(rgba(247, 84, 2, 0.5),rgba(245, 84, 3, 0.5)),url(../images/background/praject-2-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/background/project-3-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span3:hover {
+    background: linear-gradient(rgba(247, 84, 2, 0.5),rgba(245, 84, 3, 0.5)),url(../images/background/project-3-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/background/project-4-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span4:hover {
+    background: linear-gradient(rgba(247, 84, 2, 0.5),rgba(245, 84, 3, 0.5)),url(../images/background/project-4-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/background/project-5-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span5:hover {
+    background: linear-gradient(rgba(247, 84, 2, 0.5),rgba(245, 84, 3, 0.5)),url(../images/background/project-5-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/background/project-6-1.jpg) no-repeat center;
+}
+
+.projects .projects_inner2 .projects_inner2_span6:hover {
+    background: linear-gradient(rgba(247, 84, 2, 0.5),rgba(245, 84, 3, 0.5)),url(../images/background/project-6-1.jpg) no-repeat center;
+}
+
+/* end of projects */
+
+.team {
+    padding: 0px 30px;
+}
+
+.team .team_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.team .team_inner h3 {
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+}
+
+.team .team_inner p {
+    font-size: 15px;
+    margin: 0px 0px 20px 0px;
+}
+
+.team .team_inner div i {
+    font-size: 18px;
+    padding: 8px;
+    background: #4c4c4c;
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 0px 10px;
+    transition: .2s;
+}
+
+.team .team_inner div i:hover {
+    background: #ff5e14;
+}
+
+.team .team_inner div {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.team .team_inner div img {
+    width: 100%;
+    filter: grayscale(40%);
+    transition: 1s;
+}
+
+.team .team_inner div img:hover {
+    filter: grayscale(0%);
+}
+
+/* end of team */
+
+footer {
+    background: #1A1A1A;
+    color: #ffffff;
+}
+
+footer .foot1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 30px 50px 26px;
+    border-bottom: 0.5px solid #3b3b3b;
+}
+
+.foot1 ul {
+    list-style-type: none;
+}
+
+.foot1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.foot1 h2 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.foot1 p {
+    font-size: 15px;
+    line-height: 28px;
+    margin: 40px 0px 0px 0px;
+}
+
+.foot1 div div i {
+    font-size: 15px;
+    padding: 8px;
+    background: #4c4c4c;
+    color: #ffffff;
+    margin: 20px 10px 20px 0px;
+    transition: .2s;
+}
+
+.foot1 div div i:hover {
+    background: #ff5e14;
+}
+
+footer .foot2 {
+    padding: 80px 0px;
+}
+
+/* end of footer */
+
+@media only screen and (min-width: 768px) {
+    
+header img {
+    width: auto;
+}
+    
+.hero {
+    text-align: start;
+
+}
+
+.hero h1 {
+    font-size: 45px;
+    line-height: 70px;
+    padding: 100px 100px 0px 30px;
+}
+
+.hero p {
+    padding: 0px 30px;
+}
+
+.hero .hero_inner {
+    justify-content: start;
+    flex-direction: row;
+    padding: 0px 30px;
+}
+
+.concrete .concrete_inner2, .specialization .specialization_inner1 {
+    padding: 0px 30px;
+}
+
+.concrete .concrete_inner2 img, .specialization .specialization_inner1 img {
+    height: 100vh;
+}
+
+.concrete .concrete_inner2 .concrete_inner2_under, .specialization .specialization_inner1_under {
+    height: 100vh;
+    width: 80%;
+    margin: -500px 0px 0px 60px;
+}
+
+.consultation p {
+    padding: 0px 50px;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa {
+    width: 47%;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa div{
+    width: 80%;
+    margin: 0px 0px 0px 30px;
+    text-align: start;
+}
+
+.client .client_inner1 .client_inner1_img, .client_inner2 .client_inner2_img {
+    width: 100%;
+}
+
+.client .client_inner1 .client_inner1_div, .client_inner2 .client_inner2_div {
+    width: 50%;
+}
+
+.projects .projects_inner1 p {
+    width: 50%;
+}
+
+.projects .projects_inner2 .projects_inner2_img1 .span2, .projects .projects_inner2 .projects_inner2_img2 .span2 {
+    width: 50%;
+}
+
+.team .team_p {
+    width: 70%;
+}
+
+.team .team_inner .team_inner_img {
+    width: 32%;
+}
+
+footer .foot1 {
+    flex-direction: row;
+}
+
+footer .foot1 div {
+    width: 50%;
+}
+
+footer .foot1 div p {
+    padding: 0px 40px 0px 0px;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .back_fixed {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background/home-bg-1.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
+    
+header nav ul {
+    display: block;
+}
+    
+header nav ul li {
+    display: inline;
+}
+    
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px 0px 15px;
+}
+    
+header nav ul li a i {
+    color: white;
+}
+
+header .fa-bars {
+    display: none;
+}
+
+.hero h1 {
+    font-size: 72px;
+    line-height: 100px;
+    padding: 0px 615px 0px 20px;
+}
+
+.concrete .concrete_inner1, .concrete_inner2 {
+    width: 48%;
+}
+
+.concrete .concrete_inner2 .concrete_inner2_under, .specialization .specialization_inner1_under {
+    margin: -560px 0px 0px 40px;
+}
+
+.concrete .concrete_inner1 h2, .consultation h2, .specialization .specialization_inner2 h2, .client .client_inner1 h2, .projects h2, .team h2 {
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.concrete .concrete_inner1 h3 {
+    font-size: 24px;
+}
+
+.concrete .concrete_inner1 p, .specialization .specialization_inner2 p, .client .client_inner1 p, .projects .projects_inner1 p, .team p {
+    line-height: 30px;
+    color: #5f5a5af0;
+}
+
+.consultation {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background/CTA-bg-1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.consultation p {
+    padding: 0px 300px;
+}
+
+.specialization .specialization_inner1 {
+    width: 48%;
+}
+
+.specialization .specialization_inner2 {
+    width: 48%;
+    margin: 100px 0px 0px 0px;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa {
+    width: 50%;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa div{
+    width: 60%;
+    margin: 10px 0px 10px 0px;
+}
+
+.specialization .specialization_inner2 .special_inner1 .special_inner1_fa div h3 {
+    margin: 0px 0px 10px 0px;
+}
+
+.client .client_inner1, .client_inner2 {
+    width: 48%;
+}
+
+.client .client_inner1 .client_inner1_img, .client_inner2 .client_inner2_img {
+    width: 100%;
+    height: 350px;
+}
+
+.client .client_inner1 .client_inner1_img img, .client_inner2 .client_inner2_img img{
+    height: 350px;
+}
+
+.projects .projects_inner1 p {
+    padding: 0px 100px 0px 0px;
+}
+
+.projects .projects_inner2 .projects_inner2_img1 .span1, .projects .projects_inner2 .projects_inner2_img2 .span1 {
+    width: 50%;
+}
+
+.projects .projects_inner2 .projects_inner2_img1 .span2, .projects .projects_inner2 .projects_inner2_img2 .span2 {
+    width: 25%;
+}
+
+.team .team_inner h3 {
+    margin: 30px 0px 0px 0px;
+}
+
+footer .foot1 div {
+    flex-direction: row;
+}
+
+footer .foot1 .foot1_div1 {
+    width: 30%;
+}
+
+footer .foot1 .foot1_div2 {
+    width: 23%;
+}
+
+}

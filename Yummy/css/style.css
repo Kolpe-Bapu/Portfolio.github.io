@@ -1,0 +1,183 @@
+:root {
+    --color-default: #212529;
+    --color-primary: #ce1212;
+    --color-secondary: #37373f;
+    --color-tertiary: #FAE7E7;
+    --color-trans: #C9C5C1;
+    --color-gray: #8e8e8d;
+    --color-creame: #EEEEEE;
+    --color-yellow: #FFC107;
+    --color-lightred: #F05656;
+    --color-foot: #1F1F24;
+}
+
+.text-default {
+    color: var(--color-default);
+}
+
+.bg-default {
+    background: var(--color-default);
+}
+
+.text-red {
+    color: var(--color-primary);
+}
+
+.bg-red {
+    background: var(--color-primary);
+}
+
+.text-grey {
+    color: var(--color-secondary);
+}
+
+.bg-grey {
+    background: var(--color-secondary);
+}
+
+.bg-cream {
+    background: var(--color-creame);
+}
+
+.bg-about {
+    background: var(--color-tertiary);
+}
+
+.text-trans {
+    color: var(--color-trans);
+}
+
+.text-gray {
+    color: var(--color-gray);
+}
+
+.text-yellow {
+    color: var(--color-yellow);
+}
+
+.text-lightred {
+    color: var(--color-lightred);
+}
+
+.bg-foot {
+    background: var(--color-foot);
+}
+
+#header {
+    z-index: 11;
+}
+
+#header nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 1s;
+}
+
+#header nav ul li:hover {
+    color: black;
+    border-bottom: 2px solid #ce1212;
+}
+
+#hero .btn1:hover {
+    color: #ce1212;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/bg-1.jpg) center;
+    background-size: cover;
+}
+
+#choose .choose_inner {
+    transition: 1s;
+}
+
+#choose .choose_inner:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#events .card {
+    position: relative;
+}
+
+#events .card .events_inner{
+    position: absolute;
+    background: #00000087;
+    height: 350px;
+}
+
+#events .card .events_inner h3 {
+    position: relative;
+}
+
+#events .card .events_inner h3::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 64px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #FF3E00;
+}
+
+#chefs .chefs_inner {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+
+#chefs .chefs_div {
+    transition: .5s;
+}
+
+#chefs .chefs_div:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+#chefs .chefs_inner .icons {
+    width: 50px;
+    height: 180px;
+    padding: 10px 0px 0px 0px;
+    margin: 20px 10px 0px 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+#chefs .chefs_inner:hover .icons {
+    display: flex;
+    transition: .5s;
+    opacity: 1;
+}
+
+#chefs .chefs_inner div i {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+#footer .foot_inner i{
+    transition: .4s;
+}
+
+#footer .foot_inner i:hover{
+    color: white;
+    border: 1px solid white;
+    transition: .4s;
+}
+
+#about .row #about_img {
+    object-fit: cover;
+}
+
+#counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/background/stats-bg.jpg) center no-repeat;
+    background-size: cover;
+}

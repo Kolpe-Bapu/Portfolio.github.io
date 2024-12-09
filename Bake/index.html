@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bake</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="images/illustration/time.png">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- carousel link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Italianno&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid d-flex  align-items-center flex-row">
+                        <button class="navbar-toggler bg-primary1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-white"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0 align-items-center">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active oswald-normal" aria-current="page" href="#hero">HOME</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link oswald-normal" href="#about">ABOUT</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link oswald-normal" href="#menu">MENU</a>
+                                </li>
+                                <li class="nav-item dropdown mx-2">
+                                    <a class="nav-link dropdown-toggle oswald-normal" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        PAGE
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-dark oswald-normal" href="#">Portfolio</a></li>
+                                        <li><a class="dropdown-item text-dark oswald-normal" href="#">Portfolio
+                                                Details</a></li>
+                                        <li><a class="dropdown-item text-dark oswald-normal" href="#">Services</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mx-5 px-5 text-center d-none d-lg-flex">
+                                    <a class="nav-link" href="#"><img class="w-50" src="images/illustration/Logo-1.png"
+                                            alt=""></a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link oswald-normal" href="#care">SHOP</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link oswald-normal" href="#blog">BLOG</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link oswald-normal" href="#contact">CONTACT</a>
+                                </li>
+                                <li class="nav-item mx-2 d-none d-lg-flex">
+                                    <a class="nav-link oswald-normal" href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </li>
+                                <li class="nav-item mx-2 d-none d-lg-flex">
+                                    <a class="nav-link oswald-normal" href="#"><i class="fas fa-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="nav-item text-center m-auto d-flex d-lg-none">
+                            <a class="nav-link" href="#"><img class="w-50" src="images/illustration/Logo-1.png"
+                                    alt=""></a>
+                        </span>
+                        <span class="nav-item m-auto mx-2 d-flex d-lg-none">
+                            <a class="nav-link oswald-normal" href="#"><i
+                                    class="fas fa-shopping-cart text-white"></i></a>
+                        </span>
+                        <span class="nav-item d-flex mx-2 d-lg-none">
+                            <a class="nav-link oswald-normal" href="#"><i class="fas fa-search text-white"></i></a>
+                        </span>
+                    </div>
+                </nav>
+            </div>
+        </div><!--end of header row-->
+
+        <div class="row text-white text-center py-5" id="hero">
+            <div class="col-12 py-5 mb-5">
+                <h2 class="display-6 oswald-bold text-light1">WELCOME TO</h2>
+                <h3 class="display-2 oswald-bold">FRESH BAKERY</h3>
+                <p class="fs-2 mb-5 italianno-regular">Dicovery The Amazing Bakery</p>
+            </div>
+        </div><!--end of hero row-->
+    </div><!--end of container header-->
+
+    <div class="container-fluid py-5" id="services">
+        <div class="row text-center p-5">
+            <div class="col-12 py-5">
+                <h2 class="display-6 oswald-bold text-primary1">FRESH SERVICES</h2>
+                <p class="fs-2 italianno-regular">The Best Of Our Services</p>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <div class="card border-0 align-items-center">
+                    <img src="images/illustration/services-1.jpg" class="card-img-top w-75 rounded-circle" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title oswald-bold py-3">TRAINING BAKER</h5>
+                        <p class="card-text text-text1 poppins-regular">Aliquam erat volutpat. Aenean eu scelerisque
+                            libero, semper sodales turpis.
+                            Nullam ut</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card border-0 align-items-center">
+                    <img src="images/illustration/services-2.jpg" class="card-img-top w-75 rounded-circle" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title oswald-bold py-3">WEDDING CAKE</h5>
+                        <p class="card-text text-text1 poppins-regular">Semper sodales turpis. Nullam ut felis
+                            scelerisque pellentesque</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card border-0 align-items-center">
+                    <img src="images/illustration/services-3.jpg" class="card-img-top w-75 rounded-circle" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title oswald-bold py-3">PROVIDE MATERIALS</h5>
+                        <p class="card-text text-text1 poppins-regular">Scelerisque libero, semper sodales turpis.
+                            Nullam ut felis scelerisque
+                            pellentesque
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of services row-->
+    </div><!--end of container services-->
+
+    <div class="container-fluid" id="about">
+        <div class="row">
+            <div class="col-12 col-md-6 p-5 text-white bg-primary1">
+                <h2 class="display-6 oswald-bold mt-5">ABOUT HISTORY</h2>
+                <span class="fs-2 fw-semibold italianno-regular">Discovery Story Since 1978</span>
+                <p class="py-4 poppins-regular text-grey1">
+                    Dui dolor, sagittis ut ante eget, aliquam faucibus sem. Cras in semper ex. Mauris tincidunt purus
+                    blandit arcu ullamcorper mentum justo nec, tempor semper tortor. Duis eget orci risus. Pellentesque
+                    nec dui sed nulla
+                </p>
+                <p class=" poppins-regular text-grey1">
+                    Praesent ac turpis turpis. Vestibulum finibus sapien ut tortor quis ultricies dolor vehicula. Etiam
+                    tempor elit sit amet lobortis condimentum. Fusce cursus
+                </p>
+                <h3 class="fs-6 oswald-normal py-4 mb-5">JONT NICOLIN – CEO</h3>
+            </div>
+            <div class="col-12 col-md-6 py-5 d-flex justify-content-center align-items-center" id="about-inner-2">
+                <img class="w-25" src="images/illustration/about-1.png" alt="">
+            </div>
+        </div><!--end of about row-->
+    </div><!--end of container about-->
+
+    <div class="container-fluid py-5" id="testimonials">
+        <div class="row text-center py-5">
+            <div class="col-12 py-5 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="display-6 oswald-bold text-primary1">TESTIMONALS</h2>
+                <p class="fs-2 italianno-regular">What Clients Say About Us</p>
+
+                <img src="images/illustration/Testimonials.png" alt="">
+                <p class="w-50 poppins-regular"><i>
+                        “ Vestibulum varius, velit sit amet tempor efficitur, ligula mi lvacinia libero, et vehicula dui
+                        nisi eget purus. posuere id lorem ac, interdum egestas neque. Morbi pharetra felis mauri Quisque
+                        in semper magna, in tincidunt lorem. Praesent dictum semper tortor eu consequat. Nulla sit amet
+                        tristique mauris, id blandit turpis ”
+                    </i></p>
+                <p class="fs-6 text-text1 oswald-normal"><i>JONT NICOLIN KOOK</i></p>
+            </div>
+        </div><!--end of testimonials row-->
+    </div><!--end of container testimonials-->
+
+    <div class="container-fluid text-center pt-4 p-md-5" id="menu">
+        <div class="row p-5 p-md-5 mx-md-5 ">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="row border border-2 mx-md-5 g-4 text-white d-flex justify-content-center align-items-center"
+                    id="menu_inner">
+                    <div class="col-12 pt-3">
+                        <h2 class="display-6 oswald-bold">SPECIAL MENU</h2>
+                        <p class="fs-2 pb-5 italianno-regular">The Best Our Menu Bakery</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="#"><img class="rounded-circle" src="images/illustration/menu-1.jpg" alt=""></a>
+                            <div class="ms-5">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h2 class="fs-6"><a href="#"
+                                            class="text-decoration-none text-white oswald-normal">Mexican Blueberry</a>
+                                    </h2>
+                                    <h3 class="fs-6"><a href="#"
+                                            class="text-decoration-none text-primary1 oswald-bold">$6.00</a></h3>
+                                </div>
+                                <p><a href="#" class="text-decoration-none text-gray1 italic_menu"><i>Cheese, Crakes,
+                                            Frultes, Sweets</i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="#"><img class="rounded-circle" src="images/illustration/menu-2.jpg" alt=""></a>
+                            <div class="ms-5">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h2 class="fs-6"><a href="#"
+                                            class="text-decoration-none text-white oswald-normal">Ice cream sandwich</a>
+                                    </h2>
+                                    <h3 class="fs-6"><a href="#"
+                                            class="text-decoration-none text-primary1 oswald-bold">$35.00</a></h3>
+                                </div>
+                                <p><a href="#" class="text-decoration-none text-gray1 italic_menu"><i>Cheese, Crakes,
+                                            Frultes, Sweets</i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="#"><img class="rounded-circle" src="images/illustration/menu-3 (2).jpg" alt=""></a>
+                            <div class="ms-5">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h2 class="fs-6"><a href="#"
+                                            class="text-decoration-none text-white oswald-normal">Chocolate cake</a>
+                                    </h2>
+                                    <h3 class="fs-6"><a href="#"
+                                            class="text-decoration-none text-primary1 oswald-bold">$28.00</a></h3>
+                                </div>
+                                <p><a href="#" class="text-decoration-none text-gray1 italic_menu"><i>Cheese, Crakes,
+                                            Frultes, Sweets</i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 w-25 my-5">
+                        <img class="w-75" src="images/illustration/Logo-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div><!--end of menu row-->
+    </div><!--end of container menu-->
+
+    <div class="container-fluid py-5" id="care">
+        <div class="row text-center py-5 g-4">
+            <div class="col-12 py-5">
+                <h2 class="display-6 oswald-bold text-primary1">BAKERY CARE</h2>
+                <p class="fs-2 italianno-regular">A Few Of Our Favourite Things</p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/blueberry.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal"
+                                href="#">Cheesecake with
+                                blueberries</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#"><del>14,00$</del>
+                                <span>12,00$</span></a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/browni.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal"
+                                href="#">Chocolate brownie
+                                cake</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#"><del>14,00$</del>
+                                <span>12,00$</span></a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/bread.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal"
+                                href="#">Chocolate Bread
+                                Bakery</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#">14,00$</a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">SELECT OPTION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/blackcurrent.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal"
+                                href="#">Chocolate and
+                                blackcurrant</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#">39,00$</a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/chocolate.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal"
+                                href="#">Chocolate ice
+                                cream</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#">100,00$</a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">SELECT OPTION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/browni-cake.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal"
+                                href="#">Chocolate brownie
+                                cake</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#">14,00$</a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">SELECT OPTION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/waffle-cone.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal" href="#">Ice
+                                cream in waffle
+                                cone</a></h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#">14,00$</a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">SELECT OPTION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center border-0">
+                    <a href="#"><img src="images/illustration/sandwich.jpg" class="card-img-top rounded-circle w-75"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-decoration-none text-dark oswald-normal" href="#">Ice
+                                cream sandwich</a>
+                        </h5>
+                        <p class="card-text"><a class="text-decoration-none text-primary1 oswald-normal"
+                                href="#"><del>14,00$</del>
+                                <span>12,00$</span></a></p>
+                        <a href="#" class="btn rounded-0 bg-primary1 oswald-normal card_btn">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of care row-->
+    </div><!--end of container care-->
+
+    <div class="container-fluid py-5" id="time">
+        <div class="row py-5">
+            <div class="col-12 text-center text-white d-flex justify-content-center align-items-center flex-column">
+                <div class="w-50 pb-5">
+                    <img class="w-25" src="images/illustration/time.png" alt="">
+                </div>
+                <h2 class="display-1 oswald-bold text-light1">OPEN TIMES</h2>
+                <p class="text-gray1"><span class="oswald-normal">HOTLINE: </span><span
+                        class="display-6 fw-bold text-white"> +340-5453-543</span></p>
+                <p class="my-3 text-gray1"> <span class="oswald-normal">HOURS: </span> <i class="ms-3"> Monday to
+                        Friday</i> <span class="fw-bold text-white">09.00 – 22.00</span> <i class="ms-3">Saturday and
+                        Sunday</i>
+                    <span class="fw-bold text-white">08:00 – 15.00</span>
+                </p>
+                <a class="text-decoration-none my-3 rounded-circle p-4 bg-primary1 card_btn oswald-normal" href="#">HOW
+                    TO <br> FIND US</a>
+            </div>
+        </div><!--end of time row-->
+    </div><!--end of container time-->
+
+    <div class="container-fluid p-5" id="blog">
+        <div class="row py-5">
+            <div class="col-12 pb-5 text-center">
+                <h2 class="display-6 oswald-bold text-primary1">NEWS & BLOG</h2>
+                <p class="fs-2 italianno-regular">A Love Story From The Blog</p>
+            </div>
+
+            <div class="col-12">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card mb-3 border-0">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4 ">
+                                            <a href="#"><img src="images/illustration/blog-1.jpg"
+                                                    class="img-fluid h-100" alt="..."></a>
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title mb-3"><a
+                                                        class="text-decoration-none text-dark poppins-regular"
+                                                        href="#">Morbi fermentum risus non eros tempus congue</a></h5>
+                                                <p class="card-text text-text1 oswald-normal">ADMIN SEPTEMBER 8, 2020
+                                                </p>
+                                                <p class="card-text text-gray1 poppins-regular">Mauris tincidunt purus
+                                                    blandit arcu ullamcorper finibus. Aliquam a iaculis est, eu vehicula
+                                                    elit. Vestibulum urna magna, varius in</p>
+                                                <a class="text-decoration-none text-primary1 oswald-normal"
+                                                    href="#">READ MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card mb-3 border-0">
+                                    <div class="row g-0 h-50">
+                                        <div class="col-12 col-md-4">
+                                            <a href="#"><img src="images/illustration/blog-2.jpg"
+                                                    class="img-fluid h-100" alt="..."></a>
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title mb-3"><a
+                                                        class="text-decoration-none text-dark poppins-regular"
+                                                        href="#">Fermentum risus non eros tempus congue</a></h5>
+                                                <p class="card-text text-text1 oswald-normal">ADMIN SEPTEMBER 8, 2020
+                                                </p>
+                                                <p class="card-text text-gray1 poppins-regular">Mauris tincidunt purus
+                                                    blandit arcu ullamcorper finibus. Aliquam a iaculis est, eu vehicula
+                                                    elit. Vestibulum urna magna, varius in</p>
+                                                <a class="text-decoration-none text-primary1 oswald-normal"
+                                                    href="#">READ MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center">
+                        <div class="blog_inner">
+                            <h2 class="fw-bold display-1 oswald-normal">LATEST NEWS</h2>
+                            <div class="blog_inner_2 mt-5 pe-md-5">
+                                <p class="pe-md-5 text-gray1 poppins-regular">
+                                    Aliquam faucibus nec, tempor semper tortor. Duis eget orci risus. Pellentesque nec
+                                    dui sed facilisis condimentum justo nec, tempor semper tortor. Duis eget orci risus.
+                                    Pellentesque nec dui sed nulla tempor semper tortor. Duis eget orci risus.
+                                    Pellentesque nec dui sed facilisis
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of blog row-->
+    </div><!--end of container blog-->
+
+    <div class="container-fluid p-5" id="contact">
+        <div class="row py-5 g-5 text-white">
+            <div class="col-12 col-md-6">
+                <h2 class="display-6 oswald-bold">BOOK A TABLE</h2>
+                <p class="fs-2 italianno-regular">Submit Information To Place Order</p>
+
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="email"
+                            class="form-control border-0 border-bottom bg-transparent text-white poppins-regular"
+                            id="inputEmail4" placeholder="Your Name">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="email"
+                            class="form-control border-0 border-bottom bg-transparent text-white poppins-regular"
+                            id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputNumber4" class="form-label"></label>
+                        <input type="number"
+                            class="form-control border-0 border-bottom bg-transparent text-white poppins-regular"
+                            id="inputPassword4" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputDate" class="form-label"></label>
+                        <input type="date"
+                            class="form-control border-0 border-bottom bg-transparent text-white poppins-regular"
+                            id="inputAddress" placeholder="Date">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputTime" class="form-label"></label>
+                        <input type="time"
+                            class="form-control border-0 border-bottom bg-transparent text-white poppins-regular"
+                            id="inputAddress2" placeholder="Time">
+                    </div>
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control border-0 border-bottom bg-transparent text-white poppins-regular"
+                            id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn rounded-0 oswald-normal">Make Reservation</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 ps-3 ps-md-5">
+                <h2 class="display-6 oswald-bold">CONTACT US</h2>
+                <h3 class="fs-6 fw-bold my-4 text-gray1 poppins-regular">PO Box 16122 Collins Victoria 3000 Australia
+                </h3>
+
+                <p class="m-0"><a href="#" class="text-decoration-none poppins-regular">Email: info@chiart.abcdf.com</a>
+                </p>
+                <p class="m-0"><a href="#" class="text-decoration-none poppins-regular">Phone: + 33 323 34522</a></p>
+                <p class="m-0 mb-5"><a href="#" class="text-decoration-none poppins-regular">Fax: +33 3467888</a></p>
+                <div class="mt-5">
+                    <p class="pt-5 oswald-normal">GALLERY</p>
+                    <div class="d-flex">
+                        <div class="w-100 rounded-circle">
+                            <a href="#"><img class="img-fluid rounded-circle h-100 w-50"
+                                    src="images/illustration/table-1.jpg" alt=""></a>
+                        </div>
+                        <div class="w-100 rounded-circle">
+                            <a href="#"><img class="img-fluid rounded-circle h-100 w-50"
+                                    src="images/illustration/table-2.jpg" alt=""></a>
+                        </div>
+                        <div class="w-100 rounded-circle">
+                            <a href="#"><img class="img-fluid rounded-circle h-100 w-50"
+                                    src="images/illustration/table-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of contact row-->
+    </div><!--end of container contact-->
+
+    <div class="container-fluid p-5">
+        <div class="row p-5 text-center" id="video">
+            <div class="col-12 py-5">
+                <a href="#" class="text-white"><i class="far fa-play-circle display-1"></i></a>
+            </div>
+        </div><!--end of video row-->
+    </div><!--end of container video-->
+
+    <div class="container-fluid pb-5" id="counter">
+        <div class="row py-5 text-center">
+            <div class="col-12 col-md-6 col-lg-3">
+                <h2 class="display-4 text-primary1 oswald-bold counter">230</h2>
+                <p class="fs-6 poppins-regular">Pastry Shops</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h2 class="display-4 text-primary1 oswald-bold counter">26</h2>
+                <p class="fs-6 poppins-regular">Candies Collections</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h2 class="display-4 text-primary1 oswald-bold counter">14</h2>
+                <p class="fs-6 poppins-regular">Years of Experience</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h2 class="display-4 text-primary1 oswald-bold counter">80</h2>
+                <p class="fs-6 poppins-regular">Creative Pastry Chefs</p>
+            </div>
+        </div><!--end of counter row-->
+    </div><!--end of container counter-->
+
+    <div class="container-fluid pt-3" id="footer">
+        <div class="row g-4 text-center py-4 mt-5 text-white justify-content-center align-items-center">
+            <div class="col-12 col-md-4 w-50 mb-5 border rounded-circle py-5 px-0 d-block d-md-none">
+                <a href="#"><img class="w-75" src="images/illustration/Logo-1.png" alt=""></a>
+            </div>
+            <div class="col-12 col-md-4">
+                <h2 class="fs-6 oswald-normal">CONTACT US</h2>
+                <p class="mt-4 text-text1 poppins-regular">PO Box 16122 Collins Victoria 3000 Australia</p>
+                <p class="m-1"><a href="#" class="text-decoration-none text-text1 poppins-regular">Email:
+                        info@chiart.abcdf.com</a></p>
+                <p class="m-1"><a href="#" class="text-decoration-none text-text1 poppins-regular">Phone: + 33 323
+                        34522</a></p>
+                <p class="m-1"><a href="#" class="text-decoration-none text-text1 poppins-regular">Fax: +33 3467888</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 w-25 border rounded-circle  px-0 d-none d-md-flex">
+                <a href="#"><img class="w-75 m-5" src="images/illustration/Logo-1.png" alt=""></a>
+            </div>
+            <div class="col-12 col-md-4">
+                <h2 class="fs-6 oswald-normal">ABOUT SAY</h2>
+                <p class="text-justify my-4 text-text1 poppins-regular px-5">“ Morbi mollis vestibulum sollicitudin.
+                    Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero. Vestibulum imperdiet ”</p>
+
+                <h3 class="fs-6 m-0 text-primary1 oswald-normal">JOIN DOER COOK</h3>
+                <p class="m-0 text-text1 poppins-regular">Ceo Bakery</p>
+            </div>
+            <div class="col-12 pt-5">
+                <a href="#" class="m-2 fs-5 text-text1"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="m-2 fs-5 text-text1"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="m-2 fs-5 text-text1"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="m-2 fs-5 text-text1"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="m-2 fs-5 text-text1"><i class="fab fa-behance"></i></a>
+                <p class="my-3 text-text1 poppins-regular">Copyright © 2024 Bakery – Design by <span
+                        class="text-danger">&hearts;</span> Bapu Kolpe – All Rights Reserved</p>
+            </div>
+        </div><!--end of footer row-->
+    </div><!--end of container footer-->
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- counter js link -->
+    <script src="JS/jquery.waypoints.min.js"></script>
+    <script src="JS/jquery.counterup.min.js"></script>
+
+    <!-- owl carousel link -->
+    <script src="JS/owl.carousel.min.js"></script>
+
+    <script>
+
+        $(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 3000
+            });
+        });
+
+    </script>
+</body>
+
+</html>

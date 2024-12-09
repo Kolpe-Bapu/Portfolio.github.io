@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yummy</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="images/background/bg_1.png">
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- carousel link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-5" id="header">
+        <div class="row p-5 px-md-5">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg fixed-top d-flex" id="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand fs-3 fw-bold text-white" href="#">Yummy <span class="text-red">.</span>
+                        </a>
+                        <div class="d-block d-lg-none" role="search">
+                            <button class="btn btn-dark bg-red border-0 rounded-pill p-2" type="submit">Book a
+                                Table</button>
+                        </div>
+                        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active fw-bold text-white" aria-current="page"
+                                        href="#hero">Home</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold text-white" href="#about">About</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold text-white" href="#menu">Menu</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold text-white" href="#events">Events</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold text-white" href="#chefs">Chefs</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold text-white" href="#gallery">Gallery</a>
+                                </li>
+                                <li class="nav-item dropdown mx-2">
+                                    <a class="nav-link dropdown-toggle fw-bold text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Drop Down
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold" href="#">Drop Down 1</a></li>
+                                        <li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Deep Drop down
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item fw-bold" href="#">Deep Drop Down 1</a></li>
+                                                <li><a class="dropdown-item fw-bold" href="#">Deep Drop Down 2</a></li>
+                                                <li><a class="dropdown-item fw-bold" href="#">Deep Drop Down 3</a></li>
+                                                <li><a class="dropdown-item fw-bold" href="#">Deep Drop Down 4</a></li>
+                                                <li><a class="dropdown-item fw-bold" href="#">Deep Drop Down 5</a></li>
+                                            </ul>
+                                        </li>
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="#">Drop Down 2</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">Drop Down 3</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">Drop Down 4</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link fw-bold text-white" href="#contact">Contact</a>
+                            </li>
+                            </ul>
+                            <div class="" role="search">
+                                <button
+                                    class="btn btn-danger d-none d-lg-block text-white bg-red border-0 rounded-pill px-3"
+                                    type="submit">Book a
+                                    Table</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-12  py-5 mt-5 text-center text-white ">
+                <h1 class="fw-semibold display-3">ENJOY YOUR HEALTHY </h1>
+                <h2 class="fw-semibold display-3">DELICIOUS FOOD</h2>
+                <p class="pe-0 pe-3 lead">
+                    Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. <br> Eum quas beatae cumque
+                    eum
+                    quaerat.
+                </p>
+                <div class="">
+                    <button class="btn btn-danger bg-red border-0 rounded-pill px-4 py-2">Book a Table</button>
+                    <button class="btn border-0 mx-2 rounded-pill px-3 text-center text-white fw-bold btn1"><i
+                            class="far fa-play-circle text-red fs-2 mx-2"></i>Watch Video</button>
+                </div>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container hero-->
+
+    <div class="container-fluid px-5" id="about">
+        <div class="row py-5 px-3">
+            <div class="col-12 text-center py-4">
+                <h2 class="fs-6">ABOUT US</h2>
+                <h3 class="">LEARN MORE <span class="text-red">ABOUT US</span> </h3>
+            </div>
+
+            <div class="col-12 col-lg-7" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"  data-aos-offset="200" data-aos-duration="1000">
+                <div class="card text-bg-dark border-0 ">
+                    <img src="images/illustration/about.jpg" id="about_img" class="card-img rounded-0" alt="...">
+                    <div
+                        class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center bg-white border-0 rounded-0 h-25 m-5 mt-auto">
+                        <h4 class="card-title text-dark fs-4 fw-bold">Book a Table</h4>
+                        <h5 class="card-text text-red fs-4 fw-bold">+1 5589 55488 55</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"  data-aos-offset="200" data-aos-duration="2000">
+                <div>
+                    <div class="d-flex text-center">
+                        <i class="fas fa-check-double text-red mt-2 me-2"></i>
+                        <p class="">
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fas fa-check-double text-red mt-2 me-2"></i>
+                        <p class="">
+                            Duis aute irure dolor in reprehenderit in voluptate velit.
+                        </p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fas fa-check-double text-red mt-2 me-2"></i>
+                        <p class="">
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate trideta
+                        </p>
+                    </div>
+                </div>
+                <img class="w-100 " src="images/illustration/about-2.jpg" alt="">
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container about-->
+
+    <div class="container-fluid bg-cream px-5" id="choose">
+        <div class="row g-3 py-5 justify-content-evenly align-items-center">
+            <div class="col-12 col-lg-4 p-3 bg-red text-white" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <h2 class="fw-bold fs-1 p-3">Why Choose Yummy?</h2>
+                <p class="p-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur
+                    quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                </p>
+                <a href="#" type="button" class="btn btn-light text-decoration-none px-4 py-2 ms-3 rounded-5">Learn
+                    More</a>
+            </div>
+
+            <div class=" col-12 col-lg-2 text-center bg-white h-75  py-4 choose_inner" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+                <i class="fas fa-clipboard-list my-4 pt-3 pb-3 ps-4 pe-4 text-red fs-3 bg-about rounded-circle"></i>
+                <h3 class="fs-4 fw-normal">Corporis voluptates</h3>
+                <p class="text-start my-4 px-3">
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                </p>
+            </div>
+
+            <div class="col-12 col-lg-2 text-center bg-white h-75  py-4 choose_inner" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                <i class="far fa-gem my-4 p-3 text-red fs-3 bg-about rounded-circle"></i>
+                <h3 class="fs-4 fw-normal">Ullamco laboris ladore pan</h3>
+                <p class="text-start my-4 px-3">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                </p>
+            </div>
+
+            <div class="col-12 col-lg-2 text-center bg-white h-75  py-4 choose_inner" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="2500">
+                <i class="fas fa-inbox my-4 p-3 text-red fs-3 bg-about rounded-circle"></i>
+                <h3 class="fs-4 fw-normal">Labore consequatur</h3>
+                <p class="text-start my-4 px-3">
+                    Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                </p>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container choose-->
+
+    <div class="container-fluid py-4" id="counter">
+        <div class="row p-5 text-center text-white">
+            <div class="col-12 col-md-6 col-lg-3 py-5">
+                <h2 class="display-5 fw-bold counter">232</h2>
+                <h3 class="fs-6 fw-bold text-trans">Clients</h3>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-5">
+                <h2 class="display-5 fw-bold counter">521</h2>
+                <h3 class="fs-6 fw-bold text-trans">Projects</h3>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-5">
+                <h2 class="display-5 fw-bold counter">1453</h2>
+                <h3 class="fs-6 fw-bold text-trans">Hours Of Support</h3>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-5">
+                <h2 class="display-5 fw-bold counter">32</h2>
+                <h3 class="fs-6 fw-bold text-trans">Workers</h3>
+            </div>
+        </div><!--end of row counter-->
+    </div><!--end of container counter-->
+
+    <div class="container-fluid py-5" id="menu">
+        <div class="row text-center py-5">
+            <div class="col-12">
+                <h2 class="fs-6 fw-normal">OUR MENU</h2>
+                <h3 class="fs-2">CHECK OUR <span class="text-red"> YUMMY MENU</span></h3>
+                <ul class="list-group list-group-horizontal justify-content-center my-4">
+                    <li class="list-group-item border-0 border-bottom border-2 mx-2  rounded-0 p-2"><a href="#"
+                            class="text-decoration-none fs-6 fs-md-5 text-dark">Starters</a></li>
+                    <li class="list-group-item border-0 border-bottom border-2 mx-2  rounded-0 p-2"><a href="#"
+                            class="text-decoration-none fs-6 fs-md-5 text-dark">Breakfast</a></li>
+                    <li class="list-group-item border-0 border-bottom border-2 mx-2  rounded-0 p-2"><a href="#"
+                            class="text-decoration-none fs-6 fs-md-5 text-dark">Lunch</a></li>
+                    <li class="list-group-item border-0 border-bottom border-2 mx-2  rounded-0 p-2"><a href="#"
+                            class="text-decoration-none fs-6 fs-md-5 text-dark">Dinner</a></li>
+                </ul>
+                <h4 class="fs-6 fw-normal">Menu</h4>
+                <h5 class="fs-1 pb-4">Starters</h5>
+            </div>
+
+            <div class="col-12 col-lg-4 py-4">
+                <img class="w-50" src="images/illustration/menu-item-1.png" alt="">
+                <h2 class="fs-4 pt-3">Magnam Tiste</h2>
+                <p class=" text-gray">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fs-4 text-red">$5.95</h3>
+            </div>
+            <div class="col-12 col-lg-4 py-4">
+                <img class="w-50" src="images/illustration/menu-item-2.png" alt="">
+                <h2 class="fs-4 pt-3">Aut Luia</h2>
+                <p class=" text-gray">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fs-4 text-red">$14.95</h3>
+            </div>
+            <div class="col-12 col-lg-4 py-4">
+                <img class="w-50" src="images/illustration/menu-item-3.png" alt="">
+                <h2 class="fs-4 pt-3">Est Eligendi</h2>
+                <p class=" text-gray">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fs-4 text-red">$8.95</h3>
+            </div>
+            <div class="col-12 col-lg-4 py-4">
+                <img class="w-50" src="images/illustration/menu-item-4.png" alt="">
+                <h2 class="fs-4 pt-3">Eos Luibusdam</h2>
+                <p class=" text-gray">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fs-4 text-red">$12.95</h3>
+            </div>
+            <div class="col-12 col-lg-4 py-4">
+                <img class="w-50" src="images/illustration/menu-item-5.png" alt="">
+                <h2 class="fs-4 pt-3">Eos Luibusdam</h2>
+                <p class=" text-gray">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fs-4 text-red">$12.95</h3>
+            </div>
+            <div class="col-12 col-lg-4 py-4">
+                <img class="w-50" src="images/illustration/menu-item-6.png" alt="">
+                <h2 class="fs-4 pt-3">Laboriosam Direva</h2>
+                <p class=" text-gray">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fs-4 text-red">$9.95</h3>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container menu-->
+
+    <div class="container-fluid bg-cream" id="testimonials">
+        <div class="row py-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="col-12 text-center pt-5">
+                <h2 class="fs-6 fw-normal text-gray">TESTIMONIALS</h2>
+                <h3 class="fs-2">WHAT ARE THEY <span class="text-red"> SAYING ABOUT US</span></h3>
+            </div>
+            <div class="col-12">
+                <div class="owl-carousel owl-theme" id="owl-carousel-1">
+                    <div class="item">
+                        <div class="row p-5 d-flex justify-content-center align-items-center flex-column flex-md-row">
+                            <div class="col-12 col-lg-6 py-2 border-start border-2 border-danger">
+                                <p class="ps-4"><i class="fs-6">
+                                        <i class="fas fa-quote-left text-lightred me-2 mb-2"></i>
+                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                        rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                        risus at semper.
+                                        <i class="fas fa-quote-right text-lightred ms-2 mt-2"></i>
+                                    </i>
+                                </p>
+                                <h2 class="fs-4 ps-4 pt-2">Saul Goodman</h2>
+                                <h3 class="fs-6 ps-4 pb-2 text-gray">Ceo & Founder</h3>
+                                <div>
+                                    <i class="fas fa-star text-yellow  ps-4"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <img class="w-50 border border-4 border-white rounded-circle"
+                                    src="images/illustration/testimonials-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row p-5 d-flex justify-content-center align-items-center flex-column flex-md-row">
+                            <div class="col-12 col-lg-6 py-2 border-start border-2 border-danger">
+                                <p class="ps-4"><i class="fs-6">
+                                        <i class="fas fa-quote-left text-lightred me-2 mb-2"></i>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                        cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
+                                        legam anim culpa.
+                                        <i class="fas fa-quote-right text-lightred ms-2 mt-2"></i>
+                                    </i>
+                                </p>
+                                <h2 class="fs-4 ps-4 pt-2">Sara Wilsson</h2>
+                                <h3 class="fs-6 ps-4 pb-2 text-gray">Designer</h3>
+                                <div>
+                                    <i class="fas fa-star text-yellow  ps-4"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <img class="w-50 border border-4 border-white rounded-circle"
+                                    src="images/illustration/testimonials-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row p-5 d-flex justify-content-center align-items-center flex-column flex-md-row">
+                            <div class="col-12 col-lg-6 py-2 border-start border-2 border-danger">
+                                <p class="ps-4"><i class="fs-6">
+                                        <i class="fas fa-quote-left text-lightred me-2 mb-2"></i>
+                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
+                                        duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                        <i class="fas fa-quote-right text-lightred ms-2 mt-2"></i>
+                                    </i>
+                                </p>
+                                <h2 class="fs-4 ps-4 pt-2">Jena Karlis</h2>
+                                <h3 class="fs-6 ps-4 pb-2 text-gray">Store Owner</h3>
+                                <div>
+                                    <i class="fas fa-star text-yellow  ps-4"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <img class="w-50 border border-4 border-white rounded-circle"
+                                    src="images/illustration/testimonials-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row p-5 d-flex justify-content-center align-items-center flex-column flex-md-row">
+                            <div class="col-12 col-lg-6 py-2 border-start border-2 border-danger">
+                                <p class="ps-4"><i class="fs-6">
+                                        <i class="fas fa-quote-left text-lightred me-2 mb-2"></i>
+                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+                                        veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
+                                        culpa fore nisi cillum quid.
+                                        <i class="fas fa-quote-right text-lightred ms-2 mt-2"></i>
+                                    </i>
+                                </p>
+                                <h2 class="fs-4 ps-4 pt-2">John Larson</h2>
+                                <h3 class="fs-6 ps-4 pb-2 text-gray">Entrepreneur</h3>
+                                <div>
+                                    <i class="fas fa-star text-yellow  ps-4"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                    <i class="fas fa-star text-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <img class="w-50 border border-4 border-white rounded-circle"
+                                    src="images/illustration/testimonials-4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container testimonials-->
+
+    <div class="container-fluid py-5" id="events">
+        <div class="row g-3 py-5">
+            <div class="col-12 text-center">
+                <h2 class="fs-6 text-gray">EVENTS</h2>
+                <h3 class="fs-2 pb-5">SHARE <span class="text-red"> YOUR MOMENTS</span> IN OUR RESTAURANT</h3>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card text-bg-dark border-0 rounded-0 h-100  events-1">
+                    <img src="images/illustration/events-1.jpg" class="card-img border-0 rounded-0 img-fluid  " style="height: 350px;" alt="...">
+                    <div class="card-body events_inner pt-5">
+                        <h2 class="card-title pt-5 mt-5">Custom Parties</h2>
+                        <h3 class="card-text">$99</h3>
+                        <p class="card-text pt-3">
+                            Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere.
+                            Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card text-bg-dark border-0 rounded-0 events-2">
+                    <img src="images/illustration/events-2.jpg" class="card-img border-0 rounded-0 img-fluid  " style="height: 350px;" alt="...">
+                    <div class="card-body events_inner pt-5">
+                        <h2 class="card-title pt-5 mt-5">Private Parties</h2>
+                        <h3 class="card-text">$289</h3>
+                        <p class="card-text pt-3">
+                            In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo
+                            vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card text-bg-dark border-0 rounded-0 events-3">
+                    <img src="images/illustration/events-3.jpg" class="card-img border-0 rounded-0 img-fluid  " style="height: 350px;" alt="...">
+                    <div class="card-body events_inner pt-5">
+                        <h2 class="card-title pt-5 mt-5">Birthday Parties</h2>
+                        <h3 class="card-text">$499</h3>
+                        <p class="card-text pt-3">
+                            Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse
+                            quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container events-->
+
+    <div class="container-fluid bg-cream py-4 px-4" id="chefs">
+        <div class="row text-center g-3 py-5 px-4 justify-content-center align-items-center">
+            <div class="col-12">
+                <h2 class="fs-6 text-gray">CHEFS</h2>
+                <h3 class="fs-2 mb-5">OUR <span class="text-red"> PROFFESIONAL</span> CHEFS</h3>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-3 bg-white rounded p-0 m-3 chefs_div">
+                <div class="w-100 chefs_inner">
+                    <img class="w-100 rounded" src="images/illustration/chefs-1.jpg" alt="">
+                    <div class="icons">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <h2 class="fs-5 fw-bold pt-3">Walter White</h2>
+                <h3 class="fs-6 fw-normal text-gray pb-3">Master Chef</h3>
+                <p class="text-secondary p-2"><i>
+                        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                        exercitationem iure minima enim corporis et voluptate.
+                    </i></p>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-3 bg-white rounded p-0 m-3 chefs_div">
+                <div class="w-100 chefs_inner">
+                    <img class="w-100 rounded" src="images/illustration/chefs-2.jpg" alt="">
+                    <div class="icons">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <h2 class="fs-5 fw-bold pt-3">Sarah Jhonson</h2>
+                <h3 class="fs-6 fw-normal text-gray pb-3">Patissier</h3>
+                <p class="text-secondary p-2"><i>
+                        Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit
+                        corporis. Voluptate sed quas reiciendis animi neque sapiente.
+                    </i></p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 bg-white rounded p-0 m-3 chefs_div">
+                <div class="w-100 chefs_inner">
+                    <img class="w-100 rounded" src="images/illustration/chefs-3.jpg" alt="">
+                    <div class="icons">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <h2 class="fs-5 fw-bold pt-3">William Anderson</h2>
+                <h3 class="fs-6 fw-normal text-gray pb-3">Cook</h3>
+                <p class="text-secondary p-2"><i>
+                        Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim
+                        aut architecto porro aspernatur molestiae modi.
+                    </i></p>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container chefs-->
+
+    <div class="container-fluid py-5" id="table">
+        <div class="row text-center py-5">
+            <div class="col-12">
+                <h2 class="fs-6 fw-normal text-gray">BOOK A TABLE</h2>
+                <h3 class="fs-2">BOOK <span class="text-red"> YOUR STAY</span> WITH US</h3>
+            </div>
+
+            <div class="col-12 py-5">
+                <div class="row bg-cream mx-5 justify-content-center align-items-center">
+                    <div class="col-12 p-0 col-lg-4">
+                        <img class="w-100" src="images/illustration/reservation.jpg" alt="">
+                    </div>
+                    <div class="col-12 text-center col-lg-8">
+                        <form class="row g-3 ">
+                            <div class="col-md-4">
+                                <label for="inputEmail4" class="form-label"></label>
+                                <input type="text" class="form-control p-3 rounded-0" id="inputEmail4"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputPassword4" class="form-label"></label>
+                                <input type="email" class="form-control p-3 rounded-0" id="inputPassword4"
+                                    placeholder="Your Email">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for="inputAddress" class="form-label"></label>
+                                <input type="text" class="form-control p-3 rounded-0" id="inputAddress"
+                                    placeholder="Your Phone">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputEmail4" class="form-label"></label>
+                                <input type="text" class="form-control p-3 rounded-0" id="inputEmail4"
+                                    placeholder="Date">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputPassword4" class="form-label"></label>
+                                <input type="email" class="form-control p-3 rounded-0" id="inputPassword4"
+                                    placeholder="Time">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for="inputAddress" class="form-label"></label>
+                                <input type="number" class="form-control p-3 rounded-0" id="inputAddress"
+                                    placeholder="# of people">
+                            </div>
+
+                            <div class="col-12 ">
+                                <textarea class="w-100 border border-1 p-3" name="" id="" cols="30" rows="5"
+                                    placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit"
+                                    class="btn btn-danger bg-red text-white py-3 px-5 rounded-pill">Book a
+                                    Table</button>
+                            </div>
+                        </form>
+                    </div>
+                </div><!--end of row-->
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container table-->
+
+    <div class="container-fluid bg-cream py-5" id="gallery">
+        <div class="row py-5  justify-content-center align-items-center">
+            <div class="col-12 text-center">
+                <h2 class="fs-6 fw-normal text-gray">GALLERY</h2>
+                <h3 class="fs-2">CHECK <span class="text-red"> OUR GALLERY</span></h3>
+            </div>
+
+            <div class="col-12 pt-5">
+                <div class="owl-carousel owl-theme" id="owl-carousel-2">
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-2.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-4.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-5.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-6.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-7.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="images/illustration/gallery-8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container gallery-->
+
+    <div class="container-fluid p-5" id="contact">
+        <div class="row px-4 py-5 g-3 ">
+            <div class="col-12 text-center">
+                <h2 class="fs-6 fw-normal text-gray">CONTACT</h2>
+                <h3 class="fs-2">NEED HELP? <span class="text-red"> CONTACT US</span></h3>
+            </div>
+
+            <div class="col-12">
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15070.410207302604!2d74.67517274999999!3d19.212554199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1714105537897!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+                <div class="card mb-3 w-100 bg-cream border-0 rounded-0">
+                    <div class="row g-0 justify-content-start align-items-center">
+                        <div class="col-3 text-center">
+                            <i class="far fa-map ms-5 my-4 p-3 rounded-circle bg-red text-white fs-3"></i>
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title fs-5 fw-bold text-grey">Our Address</h5>
+                                <p class="card-text">A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center ">
+                <div class="card mb-3 w-100 bg-cream border-0 rounded-0">
+                    <div class="row g-0 justify-content-start align-items-center">
+                        <div class="col-3 text-center">
+                            <i class="far fa-envelope ms-5 my-4 p-3 rounded-circle bg-red text-white fs-3"></i>
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title fs-5 fw-bold text-grey">Email Us</h5>
+                                <p class="card-text">contact@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center ">
+                <div class="card mb-3 w-100 bg-cream border-0 rounded-0">
+                    <div class="row g-0 justify-content-start align-items-center">
+                        <div class="col-3 text-center">
+                            <i class="fas fa-phone-alt ms-5 my-4 p-3 rounded-circle bg-red text-white fs-3"></i>
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title fs-5 fw-bold text-grey">Call Us</h5>
+                                <p class="card-text">+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center ">
+                <div class="card mb-3 w-100 bg-cream border-0 rounded-0">
+                    <div class="row g-0 justify-content-start align-items-center">
+                        <div class="col-3 text-center">
+                            <i class="fas fa-share-alt ms-5 my-4 p-3 rounded-circle bg-red text-white fs-3"></i>
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title fs-5 fw-bold text-grey">Opening Hours</h5>
+                                <p class="card-text"><span>Mon-Sat:</span> 11AM - 23PM; <span>Sunday:</span> Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 text-center">
+                <form class="row g-3 ">
+                    <div class="col-md-4">
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="text" class="form-control p-3 rounded-0" id="inputEmail4" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="email" class="form-control p-3 rounded-0" id="inputPassword4"
+                            placeholder="Your Email">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="inputAddress" class="form-label"></label>
+                        <input type="text" class="form-control p-3 rounded-0" id="inputAddress"
+                            placeholder="Your Phone">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="text" class="form-control p-3 rounded-0" id="inputEmail4" placeholder="Date">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputPassword4" class="form-label"></label>
+                        <input type="email" class="form-control p-3 rounded-0" id="inputPassword4" placeholder="Time">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="inputAddress" class="form-label"></label>
+                        <input type="number" class="form-control p-3 rounded-0" id="inputAddress"
+                            placeholder="# of people">
+                    </div>
+
+                    <div class="col-12 ">
+                        <textarea class="w-100 border border-1 p-3" name="" id="" cols="30" rows="5"
+                            placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-danger bg-red text-white py-3 px-5 rounded-pill">Book a
+                            Table</button>
+                    </div>
+                </form>
+            </div>
+
+        </div><!--end of row-->
+    </div><!--end of container contact-->
+
+    <div class="container-fluid bg-foot text-white p-0 p-md-5 " id="footer">
+        <div class="row g-4 py-3 ps-5 mx-0 mx-md-4 d-flex justify-content-start align-items-center">
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-start align-content-center">
+                <i class="fas fa-map-marker-alt pe-3  fs-4 text-gray"></i>
+                <div class="">
+                    <h2 class="fs-6 fw-bold">Address</h2>
+                    <p class="pt-3 text-gray">A108 Adam Street New York, NY 535022 - US</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-start align-content-center">
+                <i class="fas fa-phone-alt pe-3  fs-4 text-gray"></i>
+                <div class="">
+                    <h2 class="fs-6 fw-bold">Reservations</h2>
+                    <p class="pt-3 text-gray m-0"><span class="fw-bold">Phone: </span> +1 5589 55488 55</p>
+                    <p class="text-gray m-0"><span class="fw-bold">Email: </span> info@example.com</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-start align-content-center">
+                <i class="far fa-clock pe-3  fs-4 text-gray"></i>
+                <div class="">
+                    <h2 class="fs-6 fw-bold">Opening Hours</h2>
+                    <p class="pt-3 text-gray m-0"><span class="fw-bold">Mon-Sat: </span>11AM - 23PM</p>
+                    <p class="text-gray m-0"><span class="fw-bold">Sunday: </span>Closed</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <h2 class="fs-6 fw-bold">Follow Us</h2>
+                <div class="py-3 foot_inner">
+                    <i class="fab fa-twitter p-3 me-2 rounded-circle border text-gray"></i>
+                    <i class="fab fa-facebook p-3 me-2 rounded-circle border text-gray"></i>
+                    <i class="fab fa-instagram p-3 me-2 rounded-circle border text-gray"></i>
+                    <i class="fab fa-linkedin p-3 me-2 rounded-circle border text-gray"></i>
+                </div>
+            </div>
+            <div class="col-12 text-center pt-4 border-top">
+                <p class="text-gray m-0">© Copyright <span>Yummy</span>. All Rights Reserved</p>
+                <p class="text-gray m-0">Designed by <span class="text-red">&hearts;</span> Bapu Kolpe</p>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container footer-->
+
+    <!-- external script -->
+    <script src="JS/script.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- counter js link -->
+    <script src="JS/jquery.waypoints.min.js"></script>
+    <script src="JS/jquery.counterup.min.js"></script>
+
+    <!-- owl carousel link -->
+    <script src="JS/owl.carousel.min.js"></script>
+
+    <!-- animation link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+        $('#owl-carousel-1').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 1
+                },
+                1200: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+    <script>
+
+        $('#owl-carousel-2').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 3
+                },
+                1200: {
+                    items: 5
+                }
+            }
+        })
+
+    </script>
+
+    <script>
+
+        $(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 3000
+            });
+        });
+
+    </script>
+    
+    <script>
+
+        AOS.init();
+
+    </script>
+
+</body>
+
+</html>
