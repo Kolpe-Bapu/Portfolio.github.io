@@ -1,0 +1,572 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid #FF9908;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+    padding: 20px;
+    position: fixed;
+    z-index: 11;
+}
+
+header h2 {
+    color: #FF9908;
+    font-size: 28px;
+    margin: -10px 0px 0px 10px;
+    font-weight: 600;
+}
+
+header h2 .spanx {
+    color: #639906;
+}
+
+header h2 i {
+    display: block;
+    font-size: 12px;
+    color: white;
+}
+
+nav ul li {
+    display: none;
+}
+
+header div button {
+    display: none;
+}
+
+header div i {
+    font-size: 23px;
+    margin: 0px 10px;
+    color: white;
+}
+
+header div .fa-search:hover {
+    color: #FF5408;
+    cursor: pointer;
+}
+
+.hero {
+    background: url(../images/background/index.jpg) center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    padding: 50px 30px;
+}
+
+.hero h1 {
+    margin: 100px 0px 0px 0px;
+}
+
+.hero .hero_head {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.hero h4 span {
+    display: block;
+    color: #FF9908;
+    font-size: 50px;
+}
+
+.hero .hero_inner span {
+    padding: 10px;
+}
+
+.hero .hero_inner span:hover {
+    border-radius: 100%;
+    background: #FF9908;
+    color: white;
+}
+
+.hero .container .btn,
+.subscription .container button,
+.plan .plan_inner div button {
+    border: 0px;
+    padding: 23px 20px;
+    margin: 20px 0px 40px 0px;
+    width: 150px;
+    font-weight: 600;
+    background: #FF9908;
+    color: white;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.hero .container button:hover,
+header div button:hover,
+.subscription .container button:hover,
+.plan .plan_inner div button:hover {
+    background: #FF5408;
+    cursor: pointer;
+}
+
+.win_award .container {
+    background: #1D1F2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+}
+
+.win_award .container div h2 {
+    font-size: 25px;
+}
+
+.win_award .container div p {
+    margin: 20px 0px;
+    color: #8E8E8E;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.win_award .container div img {
+    height: 150px;
+    width: 80px;
+}
+
+.win_award .container div img:hover {
+    color: #FF9908;
+}
+
+.subscription,
+.plan .plan_inner,
+.cardio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subscription .container {
+    padding: 100px 0px;
+}
+
+.subscription .container h2 {
+    font-size: 40px;
+    margin: 0px 0px 20px 20px;
+}
+
+.subscription .container h2 span {
+    display: block;
+}
+
+.subscription .container p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0px 20px;
+    color: #8E8E8E;
+}
+
+.subscription .container .sub_ok {
+    margin: 30px 0px 20px 0px;
+}
+
+.subscription .container .sub_ok div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.subscription .container .sub_ok div span {
+    padding: 4px;
+    border: 2px solid #FF9908;
+    border-radius: 50%;
+    margin: 0px 10px 0px 20px;
+}
+
+.subscription .container button {
+    margin: 30px 0px 0px 20px;
+}
+
+.subscription .sub_img,
+.cardio .container div {
+    width: 100%;
+    padding: 10px;
+}
+
+.subscription .sub_img img,
+.cardio img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 80px 0px;
+}
+
+.cardio {
+    padding: 100px 10px;
+    background: #1D1F2A;
+}
+
+.cardio img {
+    margin: 10px 0px 10px 0px;
+}
+
+.cardio .cardio_img1,
+.cardio_img2 {
+    display: none;
+}
+
+.Testimonials {
+    text-align: center;
+    padding: 10px;
+}
+
+.Testimonials h2 {
+    margin: 100px 0px 60px 0px;
+    font-size: 36px;
+}
+
+.Testimonials p {
+    font-size: 16px;
+    line-height: 30px;
+    font-style: italic;
+    color: #64677c;
+}
+
+.Testimonials div img {
+    border-radius: 100%;
+    margin: 50px 0px 20px 0px;
+}
+
+.Testimonials div p {
+    font-style: normal;
+}
+
+.Testimonials div span {
+    color: #FF9908;
+    font-weight: 600;
+}
+
+.plan {
+    text-align: center;
+    padding: 80px 10px;
+    background: linear-gradient(rgba(29, 31, 42, 0.91), rgba(29, 31, 42, 0.91)), url(../images/background/plans.jpg) center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+.plan h2 {
+    font-size: 36px;
+    margin: 0px 0px 60px 0px;
+}
+
+.plan .plan_inner div {
+    border: 10px solid #FF5408;
+    margin: 30px 0px;
+    width: 100%;
+    padding: 20px 0px;
+    background: #ffffff;
+    color: #000000;
+}
+
+.plan .plan_inner div h3 {
+    font-size: 68px;
+    font-weight: 700;
+    color: #ff9908;
+    line-height: 0.75;
+    margin: 60px 0px 0px 0px;
+}
+
+.plan .plan_inner div h4 {
+    font-size: 24px;
+    margin: 40px 0px 50px 0px;
+}
+
+.plan .plan_inner div p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #64677c;
+    margin: 0px 0px 15px 0px;
+}
+
+.plan .plan_inner div button {
+    margin: 50px 0px;
+}
+
+.plan .plan_inner .plan_inner_d2 {
+    background: #1D1F2A;
+    color: white;
+}
+
+.now {
+    text-align: center;
+    background: #FF9908;
+    padding: 80px 0px;
+    color: #ffffff;
+}
+
+.now h2 {
+    font-size: 36px;
+}
+
+.now h2 span {
+    color: #1d1f2a;
+    border-bottom: 5px solid #FF5408;
+    transition: .3s;
+}
+
+.now h2 span:hover {
+    color: #FF5408;
+}
+
+footer {
+    background: #0D0E15;
+    color: #ffffff;
+    padding: 80px 10px 10px 20px;
+}
+
+footer .foot1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer .foot1 h2 {
+    color: #FF9908;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+footer .foot1 h2 span {
+    color: #639906;
+}
+
+footer .foot1 h2 i {
+    display: block;
+    font-size: 12px;
+    color: white;
+}
+
+footer .foot1 div p {
+    font-size: 14px;
+    line-height: 27px;
+    margin: 50px 0px;
+    color: #64677c;
+}
+
+footer .foot1_inner1 {
+    margin: 40px 0px 40px 0px;
+}
+
+footer .foot1_inner1 i {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0px 10px 0px 0px;
+}
+
+footer .foot1_inner1 .fa-facebook-f {
+    width: 30px;
+    height: 30px;
+}
+
+footer .foot1_inner1 i:hover {
+    background: #FF9908;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer .foot1_inner2 ul {
+    list-style-type: none;
+}
+
+footer .foot1_inner2 h3 {
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+footer .foot1_inner2 ul li {
+    margin: 10px 0px;
+}
+
+footer .foot1_inner2 ul li a {
+    color: #64677c;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer .foot2 {
+    color: #4a4d5c;
+    font-size: 12px;
+}
+
+footer .foot2 span {
+    color: #1036f7;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        height: 110px;
+    }
+
+    header .head_but {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header div button {
+        display: block;
+        border: 0px;
+        padding: 20px 20px;
+        margin: 10px 10px 0px 10px;
+        width: 130px;
+        background: #FF9908;
+        color: white;
+    }
+
+    .hero .hero_head {
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 400;
+    }
+
+    .hero h4 span {
+        display: inline;
+        color: #FF9908;
+        font-size: 90px;
+        font-weight: 700;
+    }
+
+    .hero .container button {
+        padding: 15px 20px;
+    }
+
+    .subscription .container h2,
+    .Testimonials h2,
+    .plan h2,
+    .now h2 {
+        font-size: 68px;
+        font-weight: 700;
+    }
+
+    .subscription .container h2 span {
+        display: inline;
+    }
+
+    .subscription .sub_img {
+        padding: 20px 40px;
+    }
+
+    .cardio {
+        padding: 100px 20px;
+    }
+
+    .cardio div {
+        width: 45%;
+        margin: 0px 10px;
+    }
+
+    .cardio .cardio_img1 {
+        display: block;
+    }
+
+    .Testimonials {
+        padding: 20px 40px;
+    }
+
+    .Testimonials p {
+        font-size: 18px;
+        font-weight: 600px;
+    }
+
+    .plan {
+        padding: 80px 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    nav ul li {
+        display: block;
+        color: white;
+        margin: 0px 20px;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    nav ul li:hover {
+        color: #ff9908;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .head_but .fa-bars {
+        display: none;
+    }
+
+    .hero .hero_head {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .win_award .container div {
+        width: 25%;
+        padding: 25px;
+    }
+
+    .subscription .sub_inner {
+        width: 48%;
+    }
+
+    .subscription .sub_img {
+        padding: 0px;
+    }
+
+    .subscription .sub_img img {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .cardio div {
+        width: 30%;
+    }
+
+    .cardio .cardio_img2 {
+        display: block;
+    }
+
+    .Testimonials {
+        padding: 0px 150px 100px 150px;
+    }
+
+    .plan .plan_inner div {
+        width: 30%;
+    }
+
+    footer .foot1 {
+        flex-direction: row;
+    }
+
+    footer .foot1 .foot1_inner3 {
+        width: 35%;
+        margin: 0px 80px 0px 0px;
+    }
+
+    footer .foot1 .foot1_inner2 {
+        width: 15%;
+    }
+}

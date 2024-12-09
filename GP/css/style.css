@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: #FFBB38;
+    --color-fblack: #151515;
+    --color-dblack: #000000;
+}
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.text-yellow {
+    color: var(--color-yellow);
+}
+
+.bg-yellow {
+    background: var(--color-yellow);
+}
+
+.bg-foot1 {
+    background: var(--color-fblack);
+}
+
+.bg-foot2 {
+    background: var(--color-dblack);
+}
+
+#header nav ul li a {
+    color: #FFFFFF;
+}
+
+#header nav ul li a:hover {
+    color: #FFBB38;
+}
+
+#header button:hover {
+    background: #FFBB38;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/hero-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#action {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/cta-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#testimonals {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/testimonials-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#owl_img img {
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+#owl_img img:hover {
+    filter: grayscale(0%);
+}
+
+#services div .card h4 a {
+    color: #000000;
+    transition: .5s;
+}
+
+#services div .card:hover a {
+    color: #FFBB38;
+}
+
+#services div .card {
+    transition: .5s;
+}
+
+#services div .card:hover {
+    transform: translateY(20px);
+    transition: .5s;
+    box-shadow: 0px 0px 20px gray;
+}
+
+#action button {
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    transition: .5s;
+}
+
+#action button:hover {
+    background: #FFBB38;
+    color: #000000;
+}
+
+#portfolio div ul li:hover {
+    transition: .5s;
+}
+
+#portfolio div ul li:hover {
+    background: #FFBB38;
+    transition: .5s;
+}
+
+#portfolio .port-inner img {
+    transition: 0.5s;
+}
+
+#portfolio .port-inner img:hover {
+    transform: scale(.9);
+}
+
+#portfolio .port-inner {
+    position: relative;
+}
+
+#portfolio .port-inner .port-inner-fa {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    transition: 2s;
+    display: none;
+}
+
+#portfolio .port-inner:hover .port-inner-fa {
+    display: block;
+    color: #FFBB38;
+}
+
+#team .team_card {
+    position: relative;
+}
+
+#team .team_card .team-inner-fa {
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+}
+
+#team .team_card .team-inner-fa i {
+    background: rgba(255, 255, 255, 0.619);
+    transition: .5s;
+}
+
+#team .team_card .team-inner-fa i:hover {
+    background: #FFBB38;
+}
+
+#footer div ul li a {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+#footer div ul li a:hover {
+    color: #FFBB38;
+}
+
+#footer .foot1_fa a i {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+#footer .foot1_fa a i:hover {
+    background: #FFBB38;
+    color: #000000;
+}
